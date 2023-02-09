@@ -5,7 +5,7 @@ Volkeno-GPR is a laravel package for managing the display of Google Places Revie
 
 You can install the package via composer :
 ``` bash
-composer require spatie/laravel-sluggable
+composer require volkenomakers/google-places-reviews
 ```
 
 After installation, you must publish vendor :
