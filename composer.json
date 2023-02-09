@@ -1,0 +1,28 @@
+{
+    "name": "volkenomakers/google-places-reviews",
+    "description": "Show Google Places Reviews in Laravel project",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "VolkenoMakers\\GooglePlacesReviews\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sadio Sanghare",
+            "email": "sadio.sanghare@volkeno.sn"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist",
+        "optimize-autoloader": true
+    }
+}
