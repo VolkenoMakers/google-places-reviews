@@ -44,7 +44,7 @@ If you also want to add new class or id to go further on the customization you m
 ## Multilingual configuration (i18n)
 The package is multilingual with two languages configured by default: English and French. On the other hand, you can always add other languages by creating a folder of the language you want to use in resources/lang/vendor/gp-reviews, taking the keys and assigning them a textual value.
 
-**IMPORTANT TO KNOW :** 
+**IMPORTANT TO KNOW :** <br>
 You cannot configure the internationalization of the names of the months of the year in the lang folder. For this, you must edit the resources/views/vendor/gp-reviews.blade.php file on line 154. 
 By default the months are in French.
 
