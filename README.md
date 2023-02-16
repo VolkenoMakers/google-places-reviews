@@ -59,7 +59,7 @@ var convertTime = function(UNIX_timestamp) {
 
 ## Copyright and License
 
-[google-places-reviews](https://github.com/VolkenoMakers/volkeno-google-places-reviews)
+[google-places-reviews](https://github.com/VolkenoMakers/google-places-reviews)
 was written by [Sadio Sangharé](https://github.com/sadiosandev) for [Volkeno Makers](https://volkeno.sn) and is released under the [MIT License](LICENSE.md).
 
 Copyright (c) 2023 VolkenoMakers
