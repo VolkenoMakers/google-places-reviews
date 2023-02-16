@@ -23,9 +23,9 @@ To configure the package, you must edit the **config/google-places-reviews.php**
     */
 
 return [
-    'place_ID'          => '', // Get from: https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder **REQUIRED
-    'business_type'     => '', // Example: FinancialService (http://schema.org) **REQUIRED
-    'business_name'     => '', // Your Business name **REQUIRED
+    'place_ID'          => '', // [REQUIRED] Get from: https://developers.google.com/maps/documentation/javascript/examples/places-placeid-finder 
+    'business_type'     => '', // [REQUIRED] Example: FinancialService (http://schema.org) 
+    'business_name'     => '', // [REQUIRED] Your Business name 
     'street_address'    => '', // Your business address
     'locality'          => '', // Example: Docklands (http://schema.org/addressLocality)
     'region '           => '', // Your business region
@@ -33,7 +33,7 @@ return [
     'logo_path'         => '', // Your business logo lurl
     'min_star'          => '1', // The minimum star rating (min = 1)
     'max_rows'          => '5', // The maximum number of results (max = 5)
-    'api_key'           => '', // Google API Key **REQUIRED
+    'api_key'           => '', // [REQUIRED] Google API Key
 ];
 ```
 
