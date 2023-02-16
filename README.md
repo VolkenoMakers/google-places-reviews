@@ -14,7 +14,7 @@ php artisan vendor:publish --provider="VolkenoMakers\GooglePlacesReviews\GoogleP
 ```
 
 ## Updating config file 
-To configure the package, you must edit the config/google-places-reviews.php file to fill in the essential information.
+To configure the package, you must edit the **config/google-places-reviews.php** file to fill in the essential information.
 ``` php
 <?php
     /*
@@ -39,13 +39,13 @@ return [
 
 ## Override package css style
 You can override the package styling by adding your custom CSS in the public/vendor/gp-reviews.css file.
-If you also want to add new class or id to go further on the customization you must edit the view file integrated in resources/views/vendor/gp-reviews.blade.php
+If you also want to add new class or id to go further on the customization you must edit the view file integrated in **resources/views/vendor/gp-reviews.blade.php**
 
 ## Multilingual configuration (i18n)
-The package is multilingual with two languages configured by default: English and French. On the other hand, you can always add other languages by creating a folder of the language you want to use in resources/lang/vendor/gp-reviews, taking the keys and assigning them a textual value.
+The package is multilingual with two languages configured by default : English and French. On the other hand, you can always add other languages by creating a folder of the language you want to use in **resources/lang/vendor/gp-reviews**, taking the keys and assigning them a textual value.
 
 **IMPORTANT TO KNOW :** <br>
-You cannot configure the internationalization of the names of the months of the year in the lang folder. For this, you must edit the resources/views/vendor/gp-reviews.blade.php file on line 154. 
+You cannot configure the internationalization of the names of the months of the year in the lang folder. For this, you must edit the **resources/views/vendor/gp-reviews.blade.php** file on line 154. 
 By default the months are in French.
 
 ```js
