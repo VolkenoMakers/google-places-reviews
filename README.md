@@ -58,6 +58,8 @@ var convertTime = function(UNIX_timestamp) {
 ```
 
 ## How to user VolkenoMakers-GPR
+You must include the resources/views/vendor/gp-reviews/gp-reviews.blade.php file in the view where you want to place it.
+
 ```blade
     @section('content)
         ...
