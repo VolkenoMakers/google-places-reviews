@@ -58,7 +58,7 @@ var convertTime = function(UNIX_timestamp) {
 ```
 
 ## How to user VolkenoMakers-GPR
-```php
+```blade
     @section('content)
         ...
         ...
