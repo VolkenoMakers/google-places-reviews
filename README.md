@@ -57,6 +57,18 @@ var convertTime = function(UNIX_timestamp) {
 }
 ```
 
+## How to user VolkenoMakers-GPR
+```php
+    @section('content)
+        ...
+        ...
+        ...
+        <div>
+            @include('vendor.gp-reviews.gp-reviews')
+        </div>
+    @endsection
+```
+
 ## Copyright and License
 
 [google-places-reviews](https://github.com/VolkenoMakers/google-places-reviews)
