@@ -8,6 +8,24 @@ You can install the package via composer :
 composer require volkenomakers/google-places-reviews
 ```
 
+If installation is done, you must add the package Provider in config/app.php on providers array :
+```php
+    'providers' => [
+        ...
+        ...
+        ...
+
+        /*
+         * Package Service Providers...
+         */
+        VolkenoMakers\GooglePlacesReviews\GooglePlacesReviewsServiceProvider::class,
+
+        ...
+        ...
+        ...
+    ],
+```
+
 After installation, you must publish vendor :
 ``` php
 php artisan vendor:publish --provider="VolkenoMakers\GooglePlacesReviews\GooglePlacesReviewsServiceProvider"
@@ -67,8 +85,18 @@ You must include the resources/views/vendor/gp-reviews/gp-reviews.blade.php file
         ...
         <div>
             @include('vendor.gp-reviews.gp-reviews')
+            @stack('scripts')
         </div>
     @endsection
+```
+And in your master template, you must add push helper with script like the value
+```blade
+@push('scripts')
+```
+
+Finally, you must add the package css link in your master template head tag like this :
+```html
+<link rel="stylesheet" href="{{ asset('vendor/gp-reviews/gp-reviews.css') }}">
 ```
 
 ## Copyright and License
